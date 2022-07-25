@@ -16,7 +16,13 @@ import Contact from "../style/contact.svg"
 import Example from "./navbar.jsx"
 
 
+
+
+
+
 function App() {
+
+
 
 
 
@@ -44,6 +50,9 @@ function App() {
 
 
       <Example payload={navigate} />
+
+
+
 
 
 

@@ -70,7 +70,7 @@ export default class Example extends React.Component {
                 <DropdownToggle nav caret>
                   About
                 </DropdownToggle>
-                <DropdownMenu className="drop" right>
+                <DropdownMenu className="drop" end>
                   <DropdownItem href="#about" >
                     About Us
                   </DropdownItem>
@@ -96,7 +96,7 @@ export default class Example extends React.Component {
                 <DropdownToggle href="#corporate_training" nav caret>
                   Corporate Training
                 </DropdownToggle>
-                <DropdownMenu className="drop" right>
+                <DropdownMenu className="drop" end>
                   <DropdownItem href="#organization">
                     Organization and team assesment
                   </DropdownItem>
@@ -111,7 +111,7 @@ export default class Example extends React.Component {
                 <DropdownToggle href="#personal_training" nav caret>
                   Personal Training
                 </DropdownToggle>
-                <DropdownMenu className="drop" right>
+                <DropdownMenu className="drop" end>
                   <DropdownItem href="#self" >
                     Self managment training
                   </DropdownItem>
