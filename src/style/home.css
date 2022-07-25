@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -6,8 +12,14 @@ body {
 
 .main {
     width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+    height: min-content;
+    background-color: rgb(189, 189, 189);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 
 }
@@ -25,12 +37,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: absolute;
+    top: 0%;
 }
 
 
 .logo {
-    width: 10%;
-    height: 45%;
+    width: 30%;
+    height: 30%;
+
+    margin-left: 3%;
 }
 
 
@@ -52,22 +69,401 @@ body {
 
 
 
-.ham {
-    display: none;
-}
+
 
 
 p {
 
-    margin: 0;padding: 0;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
 
     font-size: 70%;
 
 
 
+}
+
+
+
+
+
+
+/* navbar */
+
+
+.navbar_full {
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+
+
+
+}
+
+
+.total {
+    position: fixed;
+}
+
+
+.ml-auto {
+    display: flex;
+    align-items: center;
+
+    /* background-color: red; */
+    font-size: 55%;
+
+
+}
+
+
+.drop {
+    font-size: xx-small;
+}
+
+
+
+.orange {
+    color: orange;
+    animation: animatefromleft 1s;
+
+
+}
+
+
+
+
+
+
+
+.main3 {
+    width: 100%;
+    height: 92vh;
+    /* background-color: rgb(255, 255, 240); */
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3%;
+
+    padding: 5%;
+}
+
+
+
+
+.main2{
+    background-color: aliceblue;
+    width: 100%;
+    height: 92vh;
+    
+    display: grid;
+    grid-template-columns: repeat(3 ,  1fr);
+    grid-template-rows: repeat(1 ,  1fr);
+
+    padding: 5%;
+
+    place-items: center;
+}
+
+
+
+.card{
+    width: 90%;
+    height: 50%;
+    /* background-color: pink; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    transition: 0.2s all linear ;
+
+
+}
+
+
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+.card_img{
+    width: 100%;
+    height: 85%;
+}
+
+.card_text{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+
+
+.round {
+    /* animation: spin 15s infinite; */
+}
+
+
+
+
+
+
+.part {
+
+    min-width: 50%;
+
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+
+
+
+
+
+
+.content {
+
+
+
+    /* background-color: aqua; */
+
+
+    animation: animate 1s;
+
+
+}
+
+
+
+
+
+
+
+
+
+.vert {
+    width: 50%;
+    height: 100%;
+    /* background-color: grey; */
+
+    flex-direction: column;
+
+    padding: 5%;
+}
+
+
+
+
+
+
+
+.main4 {
+    width: 100%;
+    height: 92vh;
+    /* background-color: rgb(255, 255, 240); */
+
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3%;
+
+    padding: 5%;
+}
+
+
+
+h6,
+.discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.grey {
+    font-size: xx-small;
+    color: rgb(188, 188, 188);
+}
+
+
+
+.form-control {
+    width: 75%;
+}
+
+
+
+
+.contact {
+    gap: 5%;
+}
+
+
+
+.contact_list {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 5%;
+}
+
+
+.icons {
+    width: 5%;
+    height: 70%;
+
+ 
+    margin: 0;
+    padding: 0;
+    margin-right: 5%;
+
+
+}
+
+
+
+.line {
+    width: 100%;
+    height: 15%;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+h4{
+font-weight: 400;
+font-size: large;
+}
+
+
+
+
+
+
+
+@keyframes animate {
+
+    from {
+        color: rgb(255, 255, 255);
+        font-size: 10%;
+        opacity: 0.1;
+        transform: translate(-100vw, 0vh);
+    }
+
+    to {
+        font-size: small;
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+}
+
+
+
+
+
+
+@keyframes spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .content {
+        width: 80%;
+        font-size: 70%;
+    }
+
+
+    .chk {
+        /* background-color: pink; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 20%;
+        height: 50%;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 408px) {
+
+   .navbar_full{
+    display: none;
+   }
+
+
+
+    .logo {
+        width: 15%;
+        height: 30%;
+    }
 }
