@@ -1,0 +1,121 @@
+.one,
+.three,
+.five,
+.seven,
+.nine,
+.eleven,
+.thirteen {
+    /* background-color: rgb(252, 255, 234); */
+    background-color: rgb(255, 253, 211);
+}
+
+
+
+.two,
+.four,
+.six,
+.eight,
+.ten,
+.twelve {
+    background-color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .main3 {
+        flex-direction: column;
+
+        /* background-color: yellowgreen; */
+
+
+
+    }
+
+    .part {
+        width: 90%;
+        height: 50%;
+    }
+
+    h4 {
+        font-size: small;
+    }
+
+    .img {
+        opacity: 0.7;
+    }
+
+    p {
+        font-size: xx-small;
+    }
+
+
+    .form-control {
+        height: 10%;
+        font-size: x-small;
+    }
+
+    .btn {
+        font-size: xx-small;
+
+    }
+
+
+    .main2 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0%;
+        padding: 0%;
+        margin: 0;
+    }
+
+    .card {
+        height: 40%;
+        width: 80%;
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .img {
+        display: none;
+    }
+
+    .part {
+        height: 70%;
+    }
+
+    .form-control {
+        height: 7%;
+    }
+
+
+
+    .five,
+    .eight,
+    .ten {
+        flex-direction: column;
+    }
+
+
+    
+    
+
+}

@@ -158,12 +158,11 @@ p {
 
 
 .main2{
-    background-color: aliceblue;
     width: 100%;
     height: 92vh;
     
     display: grid;
-    grid-template-columns: repeat(3 ,  1fr);
+    grid-template-columns: repeat(4 ,  1fr);
     grid-template-rows: repeat(1 ,  1fr);
 
     padding: 5%;
@@ -185,6 +184,7 @@ p {
 
 
     transition: 0.2s all linear ;
+
 
 
 }
@@ -242,7 +242,7 @@ p {
 
 
 
-.content {
+.ani {
 
 
 
@@ -332,7 +332,7 @@ h6,
 .contact_list {
     width: 100%;
     height: 50%;
-    background-color: yellow;
+    /* background-color: yellow; */
 
     padding: 5%;
 
@@ -363,7 +363,7 @@ h6,
 .line {
     width: 100%;
     height: 15%;
-    background-color: green;
+    /* background-color: green; */
 
     display: flex;
     align-items: center;
@@ -387,6 +387,12 @@ font-size: large;
 
 
 
+
+.total , .navbar_full{
+    
+    z-index: 2;
+
+}
 
 
 
@@ -428,7 +434,48 @@ font-size: large;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
+
 
     .content {
         width: 80%;
@@ -442,6 +489,8 @@ font-size: large;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+       
     }
 
     .logo {
@@ -450,15 +499,17 @@ font-size: large;
     }
 
 
+
+  
+
+
+
 }
 
 
 
 @media only screen and (max-width: 408px) {
 
-   .navbar_full{
-    display: none;
-   }
 
 
 

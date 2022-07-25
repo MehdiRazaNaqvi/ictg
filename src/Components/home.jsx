@@ -1,10 +1,8 @@
 import Logo from "../style/logo.png"
 import '../style/home.css';
+import '../style/tablet.css';
 import { useNavigate } from "react-router";
 
-
-import { GiHamburgerMenu } from "react-icons/gi";
-// import { FaFacebookF } from "react-icons/fa";
 
 
 import Undraw1 from "../style/undraw1.svg"
@@ -17,7 +15,6 @@ import Contact from "../style/contact.svg"
 
 import Example from "./navbar.jsx"
 
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
 
 function App() {
 
@@ -56,11 +53,11 @@ function App() {
 
 
 
-      <div className="main3" id="home">
+      <div className="main3 one" id="home">
 
 
 
-        <div className="content part">
+        <div className="part ani">
 
           <h4>
             Welcome to <span className="orange" >  ICTG Canada </span>! We hope you will enjoy browsing through our website, and find a lot of useful information here. We pay great attention to the quality of our consulting and training services. You can find detailed information about our services online or contact our customer service team for help.
@@ -72,7 +69,7 @@ function App() {
 
 
 
-        <img src={Undraw1} className="part" />
+        <img src={Undraw1} className="part img" />
 
 
 
@@ -86,7 +83,7 @@ function App() {
 
 
 
-      <div className="main2" >
+      <div className="main2 two" >
 
 
 
@@ -111,6 +108,13 @@ function App() {
 
         </div>
 
+        <div className="card">
+
+          <img src="https://borgenproject.org/wp-content/uploads/investing-in-developing-countries.jpg" className="card_img" />
+          <p className="card_text" >Marquee selectus </p>
+
+        </div>
+
 
 
 
@@ -121,9 +125,9 @@ function App() {
 
 
 
-      <div className="main3" id="services">
+      <div className="main3 three" id="services">
 
-        <img src="https://cdn-icons-png.flaticon.com/512/4796/4796751.png" className="part round" />
+        <img src="https://cdn-icons-png.flaticon.com/512/4796/4796751.png" className="part img round" />
 
 
         <div className="part">
@@ -141,7 +145,7 @@ function App() {
 
 
 
-      <div className="main3 about" id="about">
+      <div className="main3 about four" id="about">
 
 
 
@@ -153,7 +157,7 @@ function App() {
           </h4>
         </div>
 
-        <img src={About} className="part" />
+        <img src={About} className="part img" />
 
 
       </div>
@@ -162,7 +166,7 @@ function App() {
 
 
 
-      <div className="main4" >
+      <div className="main4 five" >
 
 
 
@@ -213,10 +217,10 @@ function App() {
 
 
 
-      <div className="main3" id="news">
+      <div className="main3 six" id="news">
 
 
-        <img src={News} className="part" />
+        <img src={News} className="part img" />
 
 
 
@@ -255,7 +259,7 @@ function App() {
 
 
 
-      <div className="main3" id="corporate_training">
+      <div className="main3 seven" id="corporate_training">
 
 
 
@@ -267,7 +271,7 @@ function App() {
             Whether you have a problem to solve, or want to revise policies and procedures, create new materials and tools, a better work environment, or a specific training program, contact us and we will begin working together to achieve your goal. </p>
         </div>
 
-        <img src={About} className="part" />
+        <img src={About} className="part img" />
 
 
       </div>
@@ -277,7 +281,7 @@ function App() {
 
 
 
-      <div className="main4" >
+      <div className="main4 eight" >
 
 
 
@@ -320,10 +324,10 @@ function App() {
 
 
 
-      <div className="main3" id="personal_training">
+      <div className="main3 nine" id="personal_training">
 
 
-        <img src={Personal} className="part" />
+        <img src={Personal} className="part img" />
 
         <div className="part">
 
@@ -342,7 +346,7 @@ function App() {
 
 
 
-      <div className="main4" >
+      <div className="main4 ten" >
 
 
 
@@ -384,7 +388,7 @@ function App() {
 
 
 
-      <div className="main3" id="coach">
+      <div className="main3 eleven" id="coach">
 
 
 
@@ -396,7 +400,7 @@ function App() {
         </div>
 
 
-        <img src={Coach} className="part" />
+        <img src={Coach} className="part img" />
 
 
       </div>
@@ -406,10 +410,10 @@ function App() {
 
 
 
-      <div className="main3" id="quote">
+      <div className="main3 twelve" id="quote">
 
 
-        <img src={Contact} className="part" />
+        <img src={Contact} className="part img" />
 
 
         <div className="part contact ">
@@ -440,7 +444,7 @@ function App() {
 
 
 
-      <div className="main3" id="contact">
+      <div className="main3 thirteen" id="contact">
 
 
 
@@ -471,7 +475,7 @@ function App() {
         </div>
 
 
-        <iframe className="part" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.2098389683915!2d-79.74276768499715!3d43.560510466438316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6a007ae15555%3A0x1f40c08884ddd800!2sICTG%20Canada!5e0!3m2!1sen!2s!4v1658745049889!5m2!1sen!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe className="part img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.2098389683915!2d-79.74276768499715!3d43.560510466438316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6a007ae15555%3A0x1f40c08884ddd800!2sICTG%20Canada!5e0!3m2!1sen!2s!4v1658745049889!5m2!1sen!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
 
       </div>
